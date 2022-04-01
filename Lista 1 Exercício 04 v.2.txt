@@ -1,0 +1,33 @@
+﻿Instalação e configuração do GIT no Linux Ubuntu 20.04
+
+
+Passo 1 - No terminal digite:
+                sudo apt-get update
+                sudo apt-get install git 
+
+
+Passo 2
+git config --global “nome.usuario”
+git config --global “seu_email@seu_email.com.br”
+
+
+
+
+Passo 3         crie uma pasta e abra-a pelo terminal.
+para inicializar o git na pasta digite
+                git init
+        clonando uma pasta já criada no GitHub
+                git clone o_caminho_do_repositório_ja_criado_no_github
+
+
+Passo 4        Envio dos arquivos:
+verifica os arquivos modificados
+                git status
+        adiciona os arquivos na sua branch local
+                git add .
+        faz o commit e escreve uma mensagem referente às modificações realizadas
+                git commit -m ”mensagem”
+        verifica se existe alguma alteração na Master
+                git pull
+        envia as alterações para o github
+                git push
